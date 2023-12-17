@@ -1,3 +1,8 @@
+## Using this Project: ECDSA Node
+
+In the `/server/index.js` there are some public keys, which will be treated as address. Which wiil also be visible on UI below **Balance**.
+While making transaction, be sure to fill relative **private key** in the Private Key Input field.
+
 ## ECDSA Node
 
 This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
